@@ -23,8 +23,8 @@ Spring 2021
        2) Classification[Naive-Bayes, KNN, SVM, Neural-Network]
        3) Clustering[K-means, Gaussian-Mixture-Models, Hierarchical-Clustering]
 
-3. Rocommender System:
-    - [Recommender System for CS papers in [academic microsoft](https://academic.microsoft.com/)](https://github.com/atoosachegini/Information-Retrieval-CE324/tree/main/Recommender-System/MIR_P3)
+3. Recommender System for CS papers in [academic microsoft](https://academic.microsoft.com/):
+    - [Recommender System](https://github.com/atoosachegini/Information-Retrieval-CE324/tree/main/Recommender-System/MIR_P3)
     -main content:
        1) Implementation of a crawler and fetching papers' information
        2) Ranking papers by PageRank
