@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:/Users/ASUS ZENBOOK/Desktop/Phase3/MIR_P3/Crawler.py", line 112, in crawl
+    conn.request("GET", f'/api/entity/{next_id}?entityType=2')
+  File "C:\Users\ASUS ZENBOOK\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\ASUS ZENBOOK\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\ASUS ZENBOOK\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\ASUS ZENBOOK\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1010, in _send_output
+    self.send(msg)
+  File "C:\Users\ASUS ZENBOOK\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 950, in send
+    self.connect()
+  File "C:\Users\ASUS ZENBOOK\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 1417, in connect
+    super().connect()
+  File "C:\Users\ASUS ZENBOOK\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\ASUS ZENBOOK\AppData\Local\Programs\Python\Python38\lib\socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\ASUS ZENBOOK\AppData\Local\Programs\Python\Python38\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
