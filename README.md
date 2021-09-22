@@ -25,7 +25,7 @@ Spring 2021
 
 3. Recommender System for CS papers in [academic microsoft](https://academic.microsoft.com/):
     - [Recommender System](https://github.com/atoosachegini/Information-Retrieval-CE324/tree/main/Recommender-System/MIR_P3)
-    -main content:
+    - main content:
        1) Implementation of a crawler and fetching papers' information
        2) Ranking papers by PageRank
        3) Ranking authors by HITS algorithm
